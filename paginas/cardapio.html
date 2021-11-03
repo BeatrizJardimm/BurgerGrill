@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+
+    <!--Referências do projeto-->
+    <link rel="stylesheet" href="../css/est-cardapio.css">
+    <link rel="stylesheet" href="../css/headerPags.css">
+    <link rel="shortcut icon" href="../midias/favicon.ico" type="image/x-icon">
+
+    <!-- Referências do Material Design Lite -->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-red.min.css">
+</head>
+<body onload="cardsDinamicos()">
+    
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">           
+          
+    <div class="cabecalho">
+      Aqui você é sempre bem-vindo!
+    </div>
+  
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+
+        <!-- Title - link que leva para a página principal -->
+        <a class="link-titulo" href="../index.html"><button class="logo"></button></a>
+
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+
+        <!-- Navigation -->
+        <a href="cardapio.html">
+          <button class="botoes-icons" id="icon-busca"></button>
+        </a>
+        <a href="login.html">
+          <button class="botoes-icons" id="icon-login"></button>
+        </a>
+        <a href="carrinho.html">
+          <button class="botoes-icons" id="icon-carrinho"></button>
+        </a>
+
+      </div>
+    </header>
+
+    <main class="mdl-layout__content">
+      <div class="page-content">
+
+        <h3>Cardápio Burger Grill</h3>
+
+        <div class="containers">
+
+        </div>
+
+      </div>
+
+      <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+  
+          <div class="mdl-logo">BURGER GRILL</div>
+          <ul class="mdl-mini-footer__link-list">
+              <button class="botoes-icons" id="icon-twitter"></button>
+              <button class="botoes-icons" id="icon-facebook"></button>
+              <button class="botoes-icons" id="icon-pinterest"></button>
+              <button class="botoes-icons" id="icon-instagram"></button>
+          </ul>
+  
+        </div>
+      </footer>
+    </main>
+  </div>
+
+<script src="../js/funcoes.js"></script>
+</body>
+</html>
