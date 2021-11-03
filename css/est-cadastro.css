@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: #795548;
+    text-align: center;
+    height: 100%;
+}
+
+div#externa-cadastro{
+    width: 700px;
+    margin: 120px auto;
+    background-color: rgba(200, 200, 200, 0.2);
+    padding: 15px 10px;
+}
+
+form.input-cadastro{
+    margin: 25px;
+    display: inline;
+}
+
+button#button-cadastro{
+    margin-bottom: 5px;
+}
+
+a#link-login{
+    color: black;
+    text-decoration: none;
+}
+
+a#link-login:hover{
+    text-decoration: underline #FF5252;
+}
+
+div#rodape-cadastro{
+    text-align: center;
+}
