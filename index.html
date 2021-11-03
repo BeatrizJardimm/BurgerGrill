@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal</title>
+
+  <!--Referências do projeto-->
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="shortcut icon" href="midias/favicon.ico" type="image/x-icon">
+
+  <!-- Referências do Material Design Lite -->
+  <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-red.min.css">
+
+</head>
+<body onload="cardsProdInicial(), cardsClientes()">
+
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">           
+            
+    <div class="cabecalho">
+      Aqui você é sempre bem-vindo!
+    </div>
+
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+
+        <!-- Title - link que leva para o início da página -->
+        <a class="link-titulo" href=""><button class="logo"></button></a>
+
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer">
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link" href="">Home</a>
+            <a class="mdl-navigation__link" href="#index-parte2">Favoritos</a>
+            <a class="mdl-navigation__link" href="#index-parte3">Demonstração</a>
+            <a class="mdl-navigation__link" href="#index-parte4">Opiniões</a>
+            <a class="mdl-navigation__link" href="#index-parte5">Endereço e contato</a>
+          </nav>
+        </div>
+
+        <!-- Navigation. We hide it in small screens. -->
+        <a href="paginas/cardapio.html">
+          <button class="botoes-icons" id="icon-busca"></button>
+        </a>
+        <a href="paginas/login.html">
+          <button class="botoes-icons" id="icon-login"></button>
+        </a>
+        <a href="paginas/carrinho.html">
+          <button class="botoes-icons" id="icon-carrinho"></button>
+        </a>
+
+      </div>
+    </header>
+
+    <main class="mdl-layout__content">
+      <div class="page-content">
+
+        <div id="index-parte1">
+          <div class="caixa-transparente">
+
+            <h1>BURGER GRILL</h1>
+            <p>O hambuguer que vai te levar às estrelas!</p>
+              <a href="paginas/cadastro.html">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+                  Cadastre-se
+                </button>
+              </a>
+
+          </div>
+        </div>
+
+        <div id="index-parte2">
+          <h3>Favoritos da galera</h3>
+        
+          <div class="produtos-float">
+            <!--cards dinâmicos-->
+          </div>
+                
+          <a href="paginas/cardapio.html">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" id="outras-opcoes">
+              Outras opções
+            </button>
+          </a>
+        </div>
+
+        <div id="index-parte3">
+          <h3>Demonstração de nossos produtos:</h3>
+          <div id="conteudo-index-parte3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dA0VGEbbw4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <a href="https://www.youtube.com/channel/UCcIwjuSIHoQnCA6guaE23Cg">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" id="outros-videos">
+              Veja outros vídeos
+            </button>
+          </a>
+        </div>
+
+        <div id="index-parte4">
+          <h3>Opiniões dos clientes</h3>
+
+          <div class="depoimento-float">
+            <!--cards dinâmicos-->
+          </div>
+        </div>
+
+        <div id="index-parte5">
+          <h3>Endereço e contato</h3>
+
+          <div id="conteudo-parte5"> 
+            <div id="mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.593007304916!2d-49.25329838498529!3d-25.45186688377841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4fa6efc3181%3A0x8b0f452491a6f477!2sPontif%C3%ADcia%20Universidade%20Cat%C3%B3lica%20do%20Paran%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1634182312001!5m2!1spt-BR!2sbr" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div id="contato">
+              Endereço: Rua Imaculada Conceição, 1155 - Prado Velho, Curitiba - PR
+              <br>
+              <br>
+              Telefone: (41) 4002-8922
+              <br>
+              <br>
+              Email: BurgerGrillSuporte@gmail.com
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!--RODAPÉ-->
+      <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+          <div class="mdl-logo">BURGER GRILL</div>
+          <ul class="mdl-mini-footer__link-list">
+            <button class="botoes-icons" id="icon-facebook"> </button>
+            <button class="botoes-icons" id="icon-twitter"> </button>
+            <button class="botoes-icons" id="icon-pinterest"> </button>
+            <button class="botoes-icons" id="icon-instagram"> </button>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+<script src="js/funcoes.js"></script>
+</body>
+</html>

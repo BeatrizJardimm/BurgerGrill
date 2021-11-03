@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+html{
+  scroll-behavior: smooth;
+}
+
+button{
+  cursor: pointer;
+}
+
+/***  CABEÇALHO - NAVEGAÇÃO  ***/
+.cabecalho{
+  text-align: center;
+  width: 100% 100%;
+  background-attachment: fixed;
+  background-color: #FF5252;
+  cursor: default;
+}
+
+nav > .mdl-navigation__link{
+  margin: 0 auto;
+}
+
+.logo{
+  background: url('../midias/favicon-32x32.png') no-repeat;
+  background-size: 100% 100%;
+  width: 32px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+.botoes-icons{
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#icon-busca{
+  background: url("../midias/icon-menu.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 5px;
+}
+
+#icon-login{
+  background: url("../midias/icon-login.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 5px;
+}
+
+#icon-carrinho{
+  background: url("../midias/icon-carrinho.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 5px;
+}
+/*---------------FIM CABEÇALHO---------------*/
+
+/*** TELA 1 ***/
+#index-parte1{
+  background: url("../midias/food3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#index-parte1 p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.caixa-transparente{
+  background-color: rgba(170, 168, 168, 0.5);
+  width: 100% 100%;
+  padding: 10%;
+  height: 330px;
+}
+/*---------------FIM TELA 1---------------*/
+
+/*** TELA 2 ***/
+#index-parte2{
+  background-color: #a08764;
+  background-size: 100% 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100% 100%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.produtos-float{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mdl-card__supporting-text{
+  text-align: left;
+}
+
+.demo-card-square.mdl-card {
+  width: 300px;
+  height: 330px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.mdl-card__title{
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.mdl-card__title > h2{
+  color: white;
+}
+
+div.mdl-card--border{
+  background-color: white;
+  cursor: pointer;
+}
+
+div.mdl-card--border:hover{
+  background-color: #4CAF50;
+}
+/*---------------FIM TELA 2---------------*/
+
+/*** TELA 3 ***/
+#index-parte3{
+  background: #795548;
+  height: 100%;
+  text-align: center;
+  width: 100% 100%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+#conteudo-index-parte3{
+  width: 560px;
+  height: 315px;
+  margin: 50px auto;
+}
+/*---------------FIM TELA 3---------------*/
+
+/*** TELA 4 ***/
+#index-parte4{
+  background: white;
+  height: 100%;
+  text-align: center;
+  width: 100% 100%;
+}
+
+.depoimento-float{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.depoimento{
+  width: 30%;
+  height: 100%;
+  text-align: justify;
+  margin: 5px auto;
+  padding: 10px;
+  border: 1px solid #5B4D39;
+  border-radius: 5px;
+}
+
+.nome-foto h4{
+  display: inline;
+}
+/*---------------FIM TELA 4---------------*/
+
+/*** TELA 5 ***/
+#index-parte5{
+  background: #795548;
+  height: 100%;
+  text-align: center;
+  width: 100% 100%;
+  padding-bottom: 20px;
+}
+
+#index-parte5 h3{
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+#conteudo-parte5{
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#mapa{
+  margin: auto;
+  padding: 20px;
+}
+
+#contato{
+  text-align: justify;
+  font-size: 20px;
+  margin: auto;
+  padding: 20px;
+}
+/*---------------FIM TELA 5---------------*/
+
+/*** RODAPÉ ***/
+
+.mdl-mini-footer__left-section{
+  margin: 0 auto;
+}
+
+.mdl-logo{
+  padding: 5px 20px;
+  text-align: center;
+}
+
+#icon-facebook{
+  background: url("../midias/facebook.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 5px;
+}
+
+#icon-twitter{
+  background: url("../midias/twitter.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 5px;
+}
+
+#icon-pinterest{
+  background: url("../midias/pinterest.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 5px;
+}
+
+#icon-instagram{
+  background: url("../midias/insta.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 5px;
+}
