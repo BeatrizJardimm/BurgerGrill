@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/*** CABEÇALHO ***/
+div.cabecalho{
+    text-align: center;
+    width: 100% 100%;
+    background-attachment: fixed;
+    background-color: #FF5252;
+    cursor: default;
+}
+
+p.cabecalho{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2em;
+}
+/*--- FIM CABEÇALHO ---*/
+
+/*** NAVEGAÇÃO ***/
+.logo{
+    background: url('../midias/favicon-32x32.png') no-repeat;
+    background-size: 100% 100%;
+    width: 32px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+}  
+
+.botoes-icons{
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#icon-busca{
+    background: url("../midias/icon-menu.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 5px;
+}
+
+#icon-login{
+    background: url("../midias/icon-login.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 5px;
+}
+
+#icon-carrinho{
+    background: url("../midias/icon-carrinho.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 5px;
+}
+/*--- FIM NAVEGAÇÃO ---*/
+
+/*** RODAPÉ ***/
+
+.mdl-mini-footer__left-section{
+    margin: 0 auto;
+    bottom: auto;
+}
+
+.mdl-logo{
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#icon-facebook{
+    background: url("../midias/facebook.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 5px;
+    height: 32px;
+    width: 32px;
+}
+  
+#icon-twitter{
+    background: url("../midias/twitter.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 5px;
+    height: 32px;
+    width: 32px;
+}
+
+#icon-pinterest{
+    background: url("../midias/pinterest.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 5px;
+    height: 32px;
+    width: 32px;
+}
+
+#icon-instagram{
+    background: url("../midias/insta.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 5px;
+    height: 32px;
+    width: 32px;
+}
+/*--- FIM RODAPÉ ---*/
