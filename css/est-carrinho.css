@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body{
+    width: 100% 100%;
+    background-color: #a08764;
+}
+
+button{
+    cursor: pointer;
+}
+
+.page-content{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.prodAdicionados{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+div.demo-card-square.mdl-card {
+    width: 300px;
+    height: 330px;
+    margin: 30px auto;
+}
+
+.mdl-card__title{
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mdl-card__supporting-text{
+    text-align: left;
+}
+
+.mdl-card__title > h2{
+    color: white;
+}
+
+div.mdl-card--border{
+    cursor: pointer;
+}
+
+div.mdl-card--border:hover{
+    background-color: #FF5252;
+}
+
+#finaliza-compra{
+    background-color: #4CAF50;
+    margin: 10px 10px;
+}
+
+#mostra-preco{
+    background-color: #FF9800;
+    margin: 10px 10px;
+}
+
+#esvazia-carrinho{
+    margin: 10px 10px;
+}
