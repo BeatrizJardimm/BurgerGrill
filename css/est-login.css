@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: #795548;
+    width: 100% 100%;
+}
+
+/*** ÁREA DE LOGIN ***/
+#externa-login{
+    width: 350px;
+    margin: 120px auto;
+    background-color: rgba(200, 200, 200, 0.2);
+    padding: 15px 10px;
+}
+
+#interna-login{
+    text-align: center;
+}
+
+a#link-cadastro{
+    color: black;
+    text-decoration: none;
+}
+
+a#link-cadastro:hover{
+    text-decoration: underline #FF5252;
+}
+
+div#rodape-login{
+    text-align: center;
+}
+/*--- FIM LOGIN ---*/
